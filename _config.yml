@@ -1,21 +1,79 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
 
-# Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+# Site Setup / Specifics
 
-# Build settings
+url:  'https://wommy.github.io'
+permalink:  /post/:year-:month-:day-:title/
+
+title:  'wommy.github.io'
+tagline:  'powered by technomad'
+description: > #
+  powered by technomad
+github:
+  repo:  'https://github.com/wommy/wommy.github.io'
+  version:  1.0.0
+  
+timezone:  America/Detroit
+excerpt_separator:  '<!--more-->'
+  
+
+# About / Contact
+author:
+  name:  'Tommy Williams'
+  nick:  'Wommy'
+  phone:  
+  email:  tom@technomad.media
+  facebook:  froggie92
+  github:
+    username:  'https://github.com/wommy'
+  google+: 
+
+
+#development
+
 markdown: kramdown
+
+sass:
+    sass_dir: css/_sass
+
+# jekyll serve -I --port $PORT --host $IP
+  # incremental: true
+    # -I
+  #c9
+    # port
+      # port: '$PORT'
+      #> --port $PORT
+    # host
+      # host: '$IP'
+      #> --host $IP
+
+product:
+  name:				 techNomad
+  website:			 http://wommy.github.io/jekyll-lanyon/
+dev:
+  name:				 Wommy
+  website:  		 http://wommy.github.io/jekyll-lanyon/
+link:
+  ext:				 target='_blank'
+
+# prose
+prose:
+  siteurl:           'https://wommy.github.io'
+  ignore:
+    - .editorconfig
+    - .gitignore
+    - LICENSE.md
+    - README.md
+    - atom.xml
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+    pages:
+      - name: "layout"
+        field:
+          value: "page"
+      - name: "permalink"
+        field:
+          value: "/{{page.title}}/"
