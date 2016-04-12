@@ -5,9 +5,7 @@ jekyll blog
 
 ## how to setup new jekyll
 copy over
-  readme
-  config
-    change _sass
+  readme, config, move: _sass
   posts
   index
   about
