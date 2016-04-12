@@ -13,7 +13,7 @@ permalink:  /media/:year-:month-:day-:title/
 title:  'wommy'
 tagline:  'powered by technomad'
 description: > #
-  wommy, powered with technomad, hosted on github
+  github hosted, technomad powered, wommy
 github:
   repo:  'https://github.com/wommy/wommy.github.io'
   version:  1.0.0
