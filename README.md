@@ -7,6 +7,7 @@ jekyll blog
 copy over
   readme
   config
+    change _sass
   posts
   index
   about
