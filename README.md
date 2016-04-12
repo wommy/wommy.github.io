@@ -5,10 +5,15 @@ jekyll blog
 
 ## how to setup new jekyll
 copy over
-  readme, config, move: _sass
-  posts
-  index
-  about
+  1
+    readme
+    config
+    move: _sass
+  2
+    /posts/
+    index
+    include/post_list
+    about
 
 create
   test
