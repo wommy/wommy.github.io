@@ -10,10 +10,10 @@ url:  'https://wommy.github.io'
 baseurl: "" # the subpath of your site, e.g. /blog
 permalink:  /media/:year-:month-:day-:title/
 
-title:  'wommy.github.io'
+title:  'wommy'
 tagline:  'powered by technomad'
 description: > #
-  powered by technomad
+  wommy, powered with technomad, hosted on github
 github:
   repo:  'https://github.com/wommy/wommy.github.io'
   version:  1.0.0
