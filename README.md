@@ -1,2 +1,1 @@
-# wommy.github.io
-jekyll blog
+# jekyll-new_template
