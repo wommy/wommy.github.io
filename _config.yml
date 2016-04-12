@@ -1,0 +1,79 @@
+
+# Site Setup / Specifics
+
+url:  'https://wommy.github.io'
+permalink:  /post/:year-:month-:day-:title/
+
+title:  'wommy.github.io'
+tagline:  'powered by technomad'
+description: > #
+  powered by technomad
+github:
+  repo:  'https://github.com/wommy/wommy.github.io'
+  version:  1.0.0
+  
+timezone:  America/Detroit
+excerpt_separator:  '<!--more-->'
+  
+
+# About / Contact
+author:
+  name:  'Tommy Williams'
+  nick:  'Wommy'
+  phone:  
+  email:  tom@technomad.media
+  facebook:  froggie92
+  github:
+    username:  'https://github.com/wommy'
+  google+: 
+
+
+#development
+
+markdown: kramdown
+
+sass:
+    sass_dir: css/_sass
+
+# jekyll serve -I --port $PORT --host $IP
+  # incremental: true
+    # -I
+  #c9
+    # port
+      # port: '$PORT'
+      #> --port $PORT
+    # host
+      # host: '$IP'
+      #> --host $IP
+
+product:
+  name:				 techNomad
+  website:			 http://wommy.github.io/jekyll-lanyon/
+dev:
+  name:				 Wommy
+  website:  		 http://wommy.github.io/jekyll-lanyon/
+link:
+  ext:				 target='_blank'
+
+# prose
+prose:
+  siteurl:           'https://wommy.github.io'
+  ignore:
+    - .editorconfig
+    - .gitignore
+    - LICENSE.md
+    - README.md
+    - atom.xml
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+    pages:
+      - name: "layout"
+        field:
+          value: "page"
+      - name: "permalink"
+        field:
+          value: "/{{page.title}}/"
