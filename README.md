@@ -10,10 +10,18 @@ copy over
     config
     move: _sass
   2
-    /posts/
+    include/technomad/post_list
+  3
     index
-    include/post_list
-    about
+    pages
+      about
+      media
+        include/post_list
+      resume
+        include/medallion
+
+  ?
+    /posts/
 
 create
   test

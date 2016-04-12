@@ -1,8 +1,14 @@
 
+# Relics || to delete
+email: tom@technomad.media
+twitter_username: froggie92
+github_username:  wommy
+
 # Site Setup / Specifics
 
 url:  'https://wommy.github.io'
-permalink:  /post/:year-:month-:day-:title/
+baseurl: "" # the subpath of your site, e.g. /blog
+permalink:  /media/:year-:month-:day-:title/
 
 title:  'wommy.github.io'
 tagline:  'powered by technomad'
@@ -14,14 +20,17 @@ github:
   
 timezone:  America/Detroit
 excerpt_separator:  '<!--more-->'
-  
+
+# Build settings
+markdown: kramdown
+
 
 # About / Contact
 author:
   name:  'Tommy Williams'
   nick:  'Wommy'
   phone:  
-  email:  tom@technomad.media
+#  email:  get from email ^
   facebook:  froggie92
   github:
     username:  'https://github.com/wommy'
