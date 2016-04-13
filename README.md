@@ -10,15 +10,16 @@ copy over
     config
     move: _sass
   2
+    include/jekyll
     include/technomad/post_list
-  3
     index
+  3
     pages
       about
+        lowercase title
       media
-        include/post_list
       resume
-        include/medallion
+        _ include/wommy/medallion
 
   ?
     /posts/
@@ -36,7 +37,18 @@ TODO
     includes
     layouts
   404
-
+  
+  post page title > liquid template variable ?
+  template / wommy / resume
+    make it print / pdf
+  standardize wommy medallion
+  
+  /about/ template brain_food
+    jekyll
+    lanyon
+  
+  
+    
 
 ===
 
