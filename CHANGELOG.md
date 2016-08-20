@@ -1,22 +1,24 @@
 ##### TODO
+
 ```
 readme
 
-pages/ :: 404, resume, test, todo
 posts/
 
 dig up old c9 includes / layouts
-
-_data instead of _config
 
 resume :: template, print ++ pdf
 medallion
 ```
 
+## 0.1.4 / 2016-08-22
 
-
-
-
+```
+started 
+  _data/ user
+  _layout/ resume
+  pages/ 404
+```
 
 ## 0.1.3 / 2016-08-19
 

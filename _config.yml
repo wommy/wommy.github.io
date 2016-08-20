@@ -1,41 +1,25 @@
-#
-# site
-#
+# # # # # site # # # # #
 
 title: wommy
-# tagline:  'powered by technomad'
-# timezone:  America/Detroit
-# excerpt_separator:  '<!--more-->'
-
 description: > # this means to ignore newlines until "baseurl:"
   github hosted, technomad powered, wommy
-
 url:  'https://wommy.io' # the base hostname & protocol for your site
 github_repo:  'https://github.com/wommy/wommy.github.io'
 baseurl: "" # the subpath of your site, e.g. /blog
 permalink:  /media/:year-:month-:day-:title/
 
-#
-# user contact ? author
-#
-name_full: Tommy Williams
-name_nick: wommy
-# phone: 
+# to remove
 email: tom@technomad.media
-facebook: froggie92
 twitter_username: froggie92
 github_username:  wommy
-# google+:
+# tagline:  'powered by technomad'
+# timezone:  America/Detroit
+# excerpt_separator:  '<!--more-->'
 
-dev_name: Wommy
-dev_site: https://wommy.io/
 
+# # # # # build # # # # #
 
-#
-# build
-#
-
-# bundle exec jekyll serve --host $IP --port $PORT -I
+# cloud9
 host: 0.0.0.0 # --host $IP
 port: 8080 # --port $PORT
 incremental: true # -I
