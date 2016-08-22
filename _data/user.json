@@ -1,0 +1,17 @@
+{
+  "todo":["contact.phone","contact.google+","blur sensative data"],
+  "user":{
+    "name":"Tommy Williams",
+    "nick":"wommy",
+    "contact":{
+      "email":"tom@technomad.media",
+      "facebook":"froggie92",
+      "twitter":"froggie92",
+      "github":"wommy"
+    }
+  },
+  "developer":{
+    "name":"wommy",
+    "site":"wommy.io"
+  }
+}

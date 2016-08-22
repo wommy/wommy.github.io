@@ -33,7 +33,6 @@ GEM
     rouge (1.11.1)
     safe_yaml (1.0.4)
     sass (3.4.22)
-    technomad-jekyll_theme (0.1.6)
 
 PLATFORMS
   ruby
@@ -41,7 +40,6 @@ PLATFORMS
 DEPENDENCIES
   jekyll (= 3.2.1)
   minima
-  technomad-jekyll_theme
 
 RUBY VERSION
    ruby 2.3.0p0
