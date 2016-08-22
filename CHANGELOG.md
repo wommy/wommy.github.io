@@ -11,16 +11,8 @@ resume :: template, print ++ pdf
 medallion
 ```
 
-## 0.1.4 / 2016-08-22
+## 0.1.3 / 2016-08-22
 
-```
-started 
-  _data/ user
-  _layout/ resume
-  pages/ 404
-```
-
-## 0.1.3 / 2016-08-19
 
 ```
 updated gems
@@ -33,6 +25,11 @@ updated
   sass
 
 created changelog
+
+started 
+  _data/ user
+  _layout/ resume
+  pages/ 404
 ```
 
 ## 0.1.2 / 2016-06-06
