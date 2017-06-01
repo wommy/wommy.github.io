@@ -1,0 +1,38 @@
+#
+# created 2016-03-25
+#
+# # # # # build # # # # #
+
+# cloud9
+host: 0.0.0.0 # --host $IP
+port: 8080 # --port $PORT
+incremental: true # -I
+
+markdown: kramdown
+theme: minima 
+# technomad-jekyll_theme
+# theme_repo: https://github.com/wommy/technomad-jekyll_theme/
+gems:
+  - jekyll-feed
+  - jekyll-assets
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+# # # # # site # # # # #
+
+title: wommy
+description: > # this means to ignore newlines until "baseurl:"
+  github hosted, technomad powered, wommy
+url:  'https://wommy.io' # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+github_repo:  'https://github.com/wommy/wommy.github.io'
+permalink:  /media/:year-:month-:day-:title/
+
+# to remove
+email: tom@technomad.media
+twitter_username: froggie92
+github_username:  wommy
+# tagline:  'powered by technomad'
+# timezone:  America/Detroit
+# excerpt_separator:  '<!--more-->'

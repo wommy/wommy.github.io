@@ -1,0 +1,30 @@
+{
+  "name": "wommy.io",
+  "version": "0.1.4",
+  "description": "tommy williams weblogfolio",
+  "main": "index.js",
+  "scripts": {
+    "pug": "pug assets --out build -P -w",
+    "scss": "node-sass assets/css -o build/css -r -w",
+    "serve": "browser-sync start --host $IP --port $PORT -s 'build' -f 'build'",
+    "dev": "parallelshell 'npm run pug' 'npm run scss' 'npm run serve'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wommy/wommy.github.io.git"
+  },
+  "keywords": [],
+  "author": "wommy",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/wommy/wommy.github.io/issues"
+  },
+  "homepage": "https://github.com/wommy/wommy.github.io#readme",
+  "devDependencies": {
+    "browser-sync": "^2.16.0",
+    "node-sass": "^3.10.0",
+    "parallelshell": "^2.0.0",
+    "pug": "^2.0.0-beta6",
+    "pug-cli": "^1.0.0-alpha6"
+  }
+}

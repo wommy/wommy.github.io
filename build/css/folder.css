@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box; }
+
+.folder {
+  height: 98vh;
+  width: 35%;
+  background: maroon;
+  padding: 4rem; }
+
+.medallion {
+  display: block;
+  background-color: silver;
+  background-image: url("http://i.imgur.com/eAkN2s1.png?1");
+  background-repeat: no-repeat;
+  background-clip: content-box;
+  align-self: center;
+  height: 325px;
+  width: 275px;
+  background-position: -15px -80px;
+  border-radius: 50%;
+  background-size: 205%; }
+
+.title-name {
+  font-size: 300%; }
+
+.icon {
+  height: 30px;
+  width: 30px;
+  background: cyan;
+  display: inline-block;
+  margin: 0 5px; }
+
+input, textarea {
+  display: block; }
+
+.content {
+  padding: 4rem;
+  vertical-align: top; }
+
+.title-blog_list {
+  font-size: 200%; }
+
+.blog-item {
+  margin: 2rem; }
+  .blog-item p {
+    margin: 4px; }
+
+nav.vertical {
+  height: 80vh;
+  vertical-align: top;
+  position: relative;
+  left: -45px; }
+  nav.vertical a {
+    display: block;
+    padding: 4px 8px;
+    margin: 3rem 1rem;
+    background: white;
+    border: double black 8px; }
+
+.u-block_inline {
+  display: inline-block; }

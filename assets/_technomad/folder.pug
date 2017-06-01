@@ -1,0 +1,51 @@
+extends ./_layouts/test.pug
+
+block css
+  link(rel="stylesheet" href="./css/folder.css")
+
+block content
+  div.folder.u-block_inline
+    i.medallion
+    p.title-name tommy williams
+    p.title-about about me
+    p tommy williams is a cool guy who does cool stuff on the reg
+      button read more
+    div.icon-nav
+      i.icon phone
+      i.icon email
+      i.icon facebook
+      i.icon twitter
+      i.icon googleplus
+      i.icon instagram
+      i.icon github
+    div.form-popup
+      form
+        fieldset
+          legend
+            button contact
+          input(type="text" placeholder="name")
+          input(type="text" placeholder="email")
+          input(type="text" placeholder="phone")
+          textarea(placeholder="leave a message and ill get back to you")
+          input(type="submit")
+  nav.u-block_inline.vertical
+    a(href='#') home
+    a(href='#blog') blog
+  div.content.u-block_inline
+    div.blog
+      mixin blog_post-short
+        li.blog-item 
+          p.title-blog blog post title
+          p.blog-short i did some stuff, i need to write moar so that this thing actually fills up
+          button read moar
+      p.title-blog_list here b blog 
+      ul
+        +blog_post-short
+        +blog_post-short
+        +blog_post-short
+        +blog_post-short
+        +blog_post-short
+        +blog_post-short
+        +blog_post-short
+          
+        
